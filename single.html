@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./css/my.css">
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			$(".answer").click(function(){
+				$(".answer").css("background-color","#f39800");
+				$(this).css("background-color","#12bdf1");
+			});
+			});
+		</script>
+	</head>
+
+	<body>
+		<section>
+			<form role="form">
+				<div class="progress">2/15</div>
+				<label>1. 在上映第一天喜获零票房记录电影是？</label>
+				<div class="answer answer1">
+					<label>
+				    A.《中国合伙人》
+				   </label>
+				</div>
+				<div class="answer answer2">
+					<label>
+				    B.《青春雷锋》
+				  </label>
+				</div>
+				<div class="answer answer3">
+					<label>
+				    C.《被解救的姜戈》
+				   </label>
+				</div>
+				<div class="answer answer4">
+					<label>
+				    D.《贞子》
+				  </label>
+				</div>
+				<button id="previous"><a href=""></a></button>
+				<button id="submit"><a href="multiple.html"></a></button>
+			</form>
+		</section>
+	</body>
+
+</html>
